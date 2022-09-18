@@ -182,3 +182,7 @@ footer{
 .gridContainer .gridImg4{
        grid-area: img4;
 }
+.gridContacto__imagen:hover{
+       transform: scale(1.5);
+       transition: all 1s ease;
+}
