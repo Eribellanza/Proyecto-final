@@ -186,3 +186,36 @@ footer{
        transform: scale(1.5);
        transition: all 1s ease;
 }
+@media (max-width: 768px) {
+       body {
+              background-color: #ffb6c1;
+              color: #ffffff;
+       }
+}
+   
+@media (min-width: 600px){
+       body{
+              background-color: #ffb6c1;
+              color: #ffffff;
+       }
+      
+}
+@media (max-width: 992px){
+       body{
+              background-color: #ffb6c1;
+              color: #ffffff;
+       }
+}
+.navColor{
+       background-color: #ffd5db;
+       font-family: 'Kanit', sans-serif;
+       color: #000000;
+       margin: 10px;
+       padding: 20px;
+}
+.navColor:hover{
+       font-weight: bold;
+}
+.colorBoton{
+       background-color: #ffffff;
+}
