@@ -7,15 +7,7 @@ body{
     background-color:#ffffff;
     font-family: 'Kanit', sans-serif;
 }
-
-.dfnav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #fde6ea;
    
-} 
 h1,h2,h3{ 
         color: #d87093;
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -36,9 +28,6 @@ img{
         margin: 10px;
         padding: 20px;
         border: 1px;
-}
-nav{
-        padding: 1rem;
 }
 .dfmenu{
 
@@ -124,12 +113,6 @@ iframe{
        border: 2px solid #ff1493;
        text-align: center;
 }
-fieldset{
-       margin: 10px;
-       padding: 20px;
-       border: 1px;
-       background-color: #ffb6c1;
-}
 .Logo2{
        width: 200px;
        height: 100px;
@@ -155,36 +138,9 @@ footer{
        transform: scale(1.5);
        transition: all 1s ease;
 }
-.gridContacto{
-       display: grid;
-       grid-template-columns: 33% 33% 33%;
-       grid-template-rows: min-content min-content min-content ;
-}
-.gridContainer{
-       display: grid;
-       grid-template-columns: 25% 25% 25% 25%;
-       grid-template-rows: min-content min-content min-content min-content;
-       grid-template-areas: 
-       "img1 img2 img3 img4"
-       "img1 img2 img3 img4"
-       "img1 img2 img3 img4"
-       "img1 img2 img3 img4";
-}
-.gridContainer .gridImg1{
-       grid-area: img1;
-}
-.gridContainer .gridImg2{
-       grid-area: img2;
-}
-.gridContainer .gridImg3{
-       grid-area: img3;
-}
-.gridContainer .gridImg4{
-       grid-area: img4;
-}
-.gridContacto__imagen:hover{
-       transform: scale(1.5);
-       transition: all 1s ease;
+.formColor{
+       background-color: #ffb6c1;
+       color: #000000;
 }
 @media (max-width: 768px) {
        body {
@@ -195,19 +151,19 @@ footer{
    
 @media (min-width: 600px){
        body{
-              background-color: #ffb6c1;
+              background-color:#ffffff;
               color: #ffffff;
        }
       
 }
 @media (max-width: 992px){
        body{
-              background-color: #ffb6c1;
+              background-color: #ffffff;
               color: #ffffff;
        }
 }
 .navColor{
-       background-color: #ffd5db;
+       background-color: pink;
        font-family: 'Kanit', sans-serif;
        color: #000000;
        margin: 10px;
