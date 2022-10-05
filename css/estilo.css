@@ -1,183 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color:#ffffff;
-    font-family: 'Kanit', sans-serif;
-}
-   
-h1,h2,h3{ 
-        color: #000000;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        text-align: center;
-}
-.Logo{
-        width: 200px;
-        height: 100px;
-        border-radius: 50%;
+body {
+  background-color: white;
+  font-family: "Kanit", sans-serif;
 }
 
+header h1, header h2, header h3 {
+  color: #000000;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+}
+header .navColor {
+  background-color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  color: #000000;
+  border: 5px solid #000000;
+  margin: 10px;
+  padding: 20px;
+}
+header .navColor:hover {
+  font-weight: bold;
+}
+header .navColor .colorBoton {
+  background-color: #ffffff;
+}
 
-.productosDestacados{
-        align-items: center;
+main .productosDestacados {
+  align-items: center;
 }
-img{
-        width: 300px;
-        margin: 10px;
-        padding: 20px;
-        border: 1px;
+main .img {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px;
 }
-.dfmenu{
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        margin: 10px;
-        background-color: #ffb6c1;
-    
-}
-.dfmenu li{
-       display: inline-block;
-       margin: 10px;
-       padding: 10px;
-       background-color: #ffb6c1;
-}
-.dfmenu li a{
-       text-decoration: none;
-       color: #000000;
-}
-.dfmenu li a:hover{
-       color: #ffffff;
-       background-color: #ff1493;
-       margin: 10px;
-       padding: 10px;
-}
-.dfmenu ul{
-       display: none;
-       position: absolute;
-}
-.dfmenu ul li{
-       display: block;
-}
-.dfmenu li:hover ul{
-    display: block;
-}
-.dfmenu ul a:hover{
-    text-decoration: none;
-    color: #000000;
-    background-color: #ff1493;
-}
-.tablaDeTalles{
-    background-color: #fad4da;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-}
-table{
-    margin: 1.5rem;
-    padding: 1rem;
-    width: 30%;
-    border: 1px solid #000000;
-}
-th, td{
-        width: 10%;
-        text-align: left;
-        border: 1px solid #000000;
-        vertical-align: top;
-        border-collapse: collapse;
-        padding: 0.3em;
-        caption-side: bottom;
-}
-.video{
-
-       text-align: center;
-}
-iframe{
-       width: 560px;
-       height: 315px;
-       margin: 10px auto;
-       padding: 20 px auto;
-       border: 5px solid #d87093;
-       text-align: center;
-    
-}
-.texto{
-       margin: 2rem;
-       padding: 1.5rem;
-       background-color: #ffb6c1;
-       color: #000000;
-       border: 2px solid #ff1493;
-       text-align: center;
-}
-.Logo2{
-       width: 200px;
-       height: 100px;
-       border-radius: 50%;
-       text-align: center;
-}
-footer{
-       background-color: #000000;
-       margin: 10px;
-       padding: 20px;
-       border: 1px;
-       color: #d87093;
-       text-align: center;
-
-}
-.redes a i{
-       font-size: 25px;
-       text-align: center;
-       padding: 5px 10px;
-       color: #fff;
-}
-.redes a i:hover{
-       transform: scale(1.5);
-       transition: all 1s ease;
-}
-.formColor{
-       background-color: #ffffff;
-       color: #000000;
-     border: 5px solid #000000;
-     padding: 10px;
-}
-@media (max-width: 768px) {
-       body {
-              background-color: #ffb6c1;
-              color: #ffffff;
-       }
-}
-   
-@media (min-width: 600px){
-       body{
-              background-color:#ffffff;
-              color: #ffffff;
-       }
-      
-}
-@media (max-width: 992px){
-       body{
-              background-color: #ffffff;
-              color: #ffffff;
-       }
-}
-.navColor{
-       background-color:#ffffff;
-       font-family: 'Kanit', sans-serif;
-       color: #000000;
-       border: 5px solid #000000;
-       margin: 10px;
-       padding: 20px;
-}
-.navColor:hover{
-       font-weight: bold;
-}
-.colorBoton{
-       background-color: #ffffff;
-}
-.productosImg{
-       border: 1px solid #000000;
-}
+main .productosImg {
+  border: 1px solid #000000;
+}/*# sourceMappingURL=estilo.css.map */

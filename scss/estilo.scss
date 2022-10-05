@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(204, 35, 35);
+    background-color: white;
     font-family: 'Kanit', sans-serif;
 }
 header{
@@ -39,3 +39,45 @@ main{
         border: 1px solid #000000
 }
 }
+footer{
+    background-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    border: 1px;
+    color: #d87093;
+    text-align: center;
+ .redes a i{
+        font-size: 25px;
+        text-align: center;
+        padding: 5px 10px;
+        color: #fff;
+    &:hover{
+        transform: scale(1.5);
+        transition: all 1s ease;
+        }
+}
+.formColor{
+    background-color: #ffffff;
+    color: #000000;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+    body {
+           background-color: #ffb6c1;
+           color: #ffffff;
+    }
+}
+
+@media (min-width: 600px){
+    body{
+           background-color:#ffffff;
+           color: #ffffff;
+    }
+   
+}
+@media (max-width: 992px){
+    body{
+           background-color: #ffffff;
+           color: #ffffff;
+    }
