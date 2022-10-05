@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(204, 35, 35);
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    h1,h2,h3{ 
+        color: #000000;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-align: center;}
+    .navColor{
+            background-color:#ffffff;
+            font-family: 'Kanit', sans-serif;
+            color: #000000;
+            border: 5px solid #000000;
+            margin: 10px;
+            padding: 20px;
+            &:hover{
+                font-weight: bold;
+            }
+            .colorBoton{
+                background-color: #ffffff;
+         }
+     }
+    
+   
+    
+}
+main{
+    .productosDestacados{
+        align-items: center;
+    }
+.img{
+        width: 300px;
+        margin: 10px;
+        padding: 20px;
+        border: 1px;
+    }
+.productosImg{
+        border: 1px solid #000000
+}
+}
