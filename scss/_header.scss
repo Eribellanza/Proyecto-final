@@ -1,0 +1,21 @@
+header{
+    h1,h2,h3{ 
+        color: #000000;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-align: center;}
+    .navColor{
+            background-color:#ffffff;
+            font-family: 'Kanit', sans-serif;
+            color: #000000;
+            border: 5px solid rgb(249, 216, 184) ;
+            margin: 10px;
+            padding: 20px;
+    &:hover{
+            font-weight: bold;
+}
+    .colorBoton{
+            background-color: rgb(249, 216, 184);
+}
+     }
+    
+}

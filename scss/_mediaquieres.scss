@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    body {
+           background-color: white;
+           color: black;
+           display: block;
+    }
+    .imgMediaQ{
+        @include imgmedia;
+        .colorBoton{
+            margin: auto;
+            padding: auto;
+        }
+    }
+}
+
+@media (min-width: 600px){
+    body{
+           background-color:#ffffff;
+           color: black;
+           display: block;
+    }
+    .imgMediaQ{
+       @include imgmedia;
+        .colorBoton{
+            margin: auto;
+            padding: auto;
+        }
+    }
+}
+@media (max-width: 900px){
+    body{
+           background-color: #ffffff;
+           color: black;
+           display: flexbox;
+    }
+    .imgMediaQ{
+       @include imgmedia;
+        .colorBoton{
+            margin: auto;
+            padding: 10px;
+        }
+    }
+}

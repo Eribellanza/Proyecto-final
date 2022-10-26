@@ -1,0 +1,30 @@
+main{
+    .productosDestacados{
+        align-items: center;
+    }
+.productosImg{
+        border: 1px solid black
+}
+h2{
+    text-align: center;
+}
+
+}
+footer{
+    background-color: rgb(249, 216, 184);
+    margin: 10px;
+    padding: 20px;
+    border: 1px;
+    color: black;
+    text-align: center;
+    .redes a i{
+        font-size: 25px;
+         text-align: center;
+         padding: 5px 10px;
+         color: #fff;
+    }
+     .redes a i:hover{
+        transform: scale(1.5);
+        transition: all 1s ease;
+     }
+}
